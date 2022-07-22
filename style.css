@@ -104,7 +104,7 @@ a:link {
     padding-top: 20px;
 } 
 
- .container-header {
+ .flexbox-space-around {
     width: 100%;
     margin-top: 100 px;
 } 
@@ -146,7 +146,7 @@ a:link {
 } 
 
  .seccion-lenceria {
-    background-color: #ffffff;
+    background-color: white;
     padding: 100px 0px;
     display: flex;
     flex-direction: row;
@@ -173,12 +173,11 @@ a:link {
 {
     .img-seccion{
         width: 50%;
-        height: 50%;
-        border-radius:20px;        
+        height: 50%;        
     }
 
     .seccion-lenceria {
-    background-color: #eedece;
+    background-color: white;
     padding: 100px 0px;
     display: flex;
     flex-direction: column;
