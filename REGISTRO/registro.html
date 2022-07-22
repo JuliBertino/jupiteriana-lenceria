@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Julieta Bertino">
+    <meta name="description" content="Pagina de registro">
+    <link rel="stylesheet" type="text/css" href="registro.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nuosu+SIL&family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="icon" href="logo.png">
+    <title>Registrarse</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+                <h1 class="bienvenida">BIENVENIDO A JUPITERIANA</h1>
+                <h2>CREAR CUENTA</h2>
+        </div>
+        <div class="datos-registro">
+            <form class="datos">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido" name="apellido" placeholder="Apellido" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Casilla de correo" required>
+                <label for="pass">Contraseña</label>
+                <input type="password" id="pass" name="pass" placeholder="Contraseña" required>
+                <label for="repeat-pass">Repite contraseña</label>
+                <input type="password" id="repeat-pass" name="pass" placeholder="Repetir contraseña" required>
+                <input class="boton-registro" type="submit" value="REGISTRARSE">
+            </form>
+            <div class="redes">    
+                <a href="#" class="facebook"><img src="facebook.png" alt="Logo facebook"><p>Continuar con Facebook</p></a>
+                <a href="#" class="google"><img src="google.png" alt="Logo Google"><p>Continuar con Google</p></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

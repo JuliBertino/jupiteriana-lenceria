@@ -1,0 +1,102 @@
+body {
+    background-image: url(fondo.jpg);
+    background-size: cover;
+    font-family: "mukta-semibold";
+    src: url(/fonts/Mukta-Bold.ttf);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bienvenida {
+    font-family:'Playfair Display', serif;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title h2 {
+    margin-top: 5px;
+    font-family:'Playfair Display', serif;
+}
+.datos {
+    display: flex;
+    flex-direction: column;
+    outline: none;
+    align-items: center;
+    font-size: 1.1em;
+    gap: 10px;
+    width: 50%;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(251, 203, 211);
+    width: 90%;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+input {
+    font-size: 1.1em;
+    border-radius: 15px;
+    border-color: #f6b8e1;
+}
+.datos-registro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.datos input {
+    width: 80%;
+}
+
+a {
+    text-decoration: none;
+}
+.boton-inicio {
+    margin-top: 15px;
+    background-color: rgb(212, 152, 218);
+    color: black;
+    font-family:'Playfair Display', serif;
+    cursor: pointer;
+    height: 40px;
+}
+/* a img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-right: 10px;
+} */
+
+@media (max-width: 640px) {
+    .datos-registro {
+        flex-direction: column;
+    }
+    .datos {
+        width: 100%;
+    }
+}
+@media (max-width: 450px) {
+    .title {
+        text-align: center;
+        font-size: 1.5em;
+        padding: 10px;
+    }
+}
+
+.logo-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    padding-bottom: 30px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
